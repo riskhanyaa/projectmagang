@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>risakhanya</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: pink;
+              padding: 30px;
+              text-align: center;
+              font-size: 35px;
+              color: black;
+            }
+            
+            /* Create two columns/boxes that floats next to each other */
+            nav {
+              float: left;
+              width: 30%;
+              height: 300px; /* only for demonstration, should be removed */
+              background: #ccc;
+              padding: 20px;
+            }
+            
+            /* Style the list inside the menu */
+            nav ul {
+              list-style-type: none;
+              padding: 0;
+            }
+            
+            article {
+              float: left;
+              padding: 20px;
+              width: 100%;
+              background-color: #f1f1f1;
+              height: 300px; /* only for demonstration, should be removed */
+            }
+            
+            /* Clear floats after the columns */
+            section::after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Style the footer */
+            footer {
+              background-color: pink;
+              padding: 10px;
+              text-align: center;
+              color: black;
+            }
+            
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+            @media (max-width: 600px) {
+              nav, article {
+                width: 100%;
+                height: auto;
+              }
+            }
+            </style>
+
+    </head>
+    <body>
+        <h2>Risa Khanya Dessy Nabilla</h2>
+        <p>Saya adalah seorang mahasiswa Informatika di Universitas Nahdlatul Ulama Yogyakarta.</p>
+        <p>Saat ini saya sedang magang di Trilogika Edutama. Saya berada di tim 3 yaitu di bagian IT bersama mentor saya yang bernama mas Susanto</p>
+
+        <header>
+        <h2>Biodata Diri</h2>
+        </header>
+
+        <img src="data:image/jpeg;base64,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" style="width:900px;height:300px;">
+
+            <nav>
+                <ul id="x">
+                <li><a href="#B">Birth</li>
+                <li><a href="#E">Education</a></li>
+                <li><a href="#S">Story</a></li>
+                </ul>
+            </nav>
+
+        <section>
+            <article>
+                <h1 id="B">Birth</h1>
+                <p>Usia saya saat ini adalah 20 tahun. Saya lahir dan besar di kota Yogyakarta. Tetapi saya memiliki kelemahan sulit menghafal daerah dan sering kesasar.</p>
+                <p>Terkadang saya jika mudik pulang ke Semarang karena ibu saya orang sana. Ayah saya asli Bogor tetapi saya belum pernah sampai Bogor.</p>
+                
+                <a href="#x">back</a>
+            </article>
+
+            <article>
+                <h1 id="E">Education</h1>
+                <p>Saya saat SD bersekolah di SDN Bangunrejo 1, saat SMP di SMP N 6 , dan saat SMK di SMK N 1, semuanya berada di Yogyakarta.</p>
+                <p>Saat ini saya sedang berkuliah di Universitas Nahdlatul Ulama Yogyakarta. Saat ini saya semester 7 dan insya ALlah lulus di tahun 2024.</p>
+            
+                <a href="#x">back</a>
+            </article>
+
+            <article>
+                <h1 id="S">Story</h1>
+                <p>Hobi saya adalah jika waktu luang saya menonton Drama Korea. Saya juga sangat suka memasak walaupun seringkali mengalami kegagalan. </p>
+                <p>Jika hari Sabtu dan Ahad kegiatan saya jika sore hari adalah mengajar anak TPA di TPA Masjid Adz-Dzakirin. Saya menyukai kegiatan tersebut karena anak kecil sangatlah menggemaskan seperti kemasan sachet</p>
+            
+                <a href="#x">back</a>
+            </article>
+        </section>
+
+        <footer>
+        <p>Thanks</p>
+        </footer>
+
+    </body>
+</html>
